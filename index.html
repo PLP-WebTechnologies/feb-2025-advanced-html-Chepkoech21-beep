@@ -55,6 +55,20 @@
         button:hover {
             background-color: #45a049;
         }
+        <style>
+    .media-container {
+        background-color: #f0f0f0;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+    }
+    audio, video {
+        width: 100%;
+        max-width: 600px;
+        margin: 15px 0;
+        display: block;
+    }
+</style>
     </style>
 </head>
 <body>
@@ -74,6 +88,27 @@
                 <li>Avocadoes</li>
             </ol>
         </section>
+        <!-- Audio Section -->
+<section class="media-container">
+    <h2>My favorite song</h2>
+    <p>Listen to this audio track:</p>
+    <audio controls>
+        <source src="https://soundcloud.com/afrobeatsupdate3/afrobeats-update-13-peru-big-thug-boys-gyakie-need-me-ruger-bounce-sinner-izolo?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p><small>Sample audio from SoundHelix.comn</small></p>
+
+    <!-- Video Section -->
+<section class="media-container">
+    <h2>The video of my favorite song</h2>
+    <p>Watch this video:</p>
+    <video controls poster="https://youtu.be/lGMsfh8AqmM?si=XOgw5X2Y4FRjK4Lx">
+        <source src="https://youtu.be/lGMsfh8AqmM?si=XOgw5X2Y4FRjK4Lx" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p><small>Sample video from Blender Foundation (Big Buck Bunny)</small></p>
+</section>
+</section>
 
         <!-- External image from pexels.com -->
         <section>
